@@ -1,3 +1,6 @@
+$min: min-width;
+$max: max-width;
+
 @mixin breakpoint($constraint, $viewport1, $viewport2: null) {
   @if $constraint == $min {
     @media screen and ($min: $viewport1) {
