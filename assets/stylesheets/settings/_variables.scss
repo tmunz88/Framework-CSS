@@ -1,0 +1,40 @@
+// basic
+
+$font-size-base: 16px; 
+
+// media queries
+
+$xs-screen: 480px; // Extra small screen / phone
+$s-screen: 768px; // Small screen / tablet
+$m-screen: 992px; // Medium screen / desktop
+$l-screen: 1200px; // Large screen / wide desktop
+$min: min-width;
+$max: max-width;
+
+// grid
+
+$grid-columns: 16;
+$grid-width: 960px;
+$grid-gutter-width: 20px;
+
+// colores
+
+$green: #39ca74;
+$darkgrey: #3b3c3a;
+$orange: #f39c12;
+
+// module
+
+$module-padding: 80px;
+
+
+// font-family
+
+$museosans: museosans, Arial, sans-serif;
+$museoslab: museoslab, Georgia, serif;
+
+
+// otros
+
+$headerHeight: 80px;
+$s-headerHeight: 48px;

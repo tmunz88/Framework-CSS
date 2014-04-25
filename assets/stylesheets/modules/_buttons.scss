@@ -1,0 +1,136 @@
+input.btn {
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  font-weight: 500;
+}
+.btn {
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 10px;
+  font-size: em(16px);
+  font-weight: 700;
+  color: white;
+  @include ellipsis;
+  @include prefix(border-radius, 4px);
+  @include transition(background-color .2s linear);
+
+  i {
+    position: relative;
+    float: left;
+    &.icon-16 {
+      margin: 10px 8px 0 0;
+    }
+  }
+
+  &.btn-border {
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+    background:none !important;
+    @include transition(border-color .2s linear);
+  }
+  &.btn-link {
+    background: none !important;
+    @include transition(color .2s linear);
+    i {
+      &.icon-16 {
+        margin-left: -10px;
+      }
+    }
+  }
+  &.btn-min {
+    height: 24px;
+    line-height: 24px;
+    padding: 0 5px;
+    font-size: em(13px);
+    i {
+      &.icon-16 {
+        margin: 4px 5px 0 0;
+      }
+    }
+    &.btn-link { 
+      i {
+        &.icon-16 {
+          margin-left: -5px;
+        }
+      }
+    }
+  }
+  &.btn-large {
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+    font-size: em(17px);
+    i {
+      &.icon-16 {
+        margin: 22px 15px 0 0;
+      }
+      &.icon-32 {
+        margin: 13px 15px 0 0;
+        &.right {
+          margin-left: 12px;
+          margin-right: -5px;
+        }
+      }
+    }
+    &.btn-border {
+      height: 56px;
+      line-height: 56px;
+    }
+    &.btn-link { 
+      i {
+        &.icon-16 {
+          margin-left: -20px;
+        }
+      }
+    }
+  }
+
+  &.btn-orange {
+    background: $orange;
+    &:hover {
+      background: lighten($orange, 10%);
+    }
+    &.btn-border {
+      border-color: $orange;
+      &:hover {
+        border-color: lighten($orange, 10%);
+      }
+    }
+    &.btn-link {
+      color: $orange;
+      &:hover {
+        color: lighten($orange, 10%);
+      }
+    }
+  }
+
+  &.btn-green {
+    background: $green;
+    &:hover {
+      background: lighten($green, 10%);
+    }
+    &.btn-border {
+      border-color: $green;
+      &:hover {
+        border-color: lighten($green, 10%);
+      }
+    }
+    &.btn-link {
+      color: $green;
+      &:hover {
+        color: lighten($green, 10%);
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
