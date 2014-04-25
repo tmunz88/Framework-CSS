@@ -11,17 +11,6 @@ $l-screen: 1200px; // Large screen / wide desktop
 
 // grid
 
-$grid-columns: 16;
-$grid-width: 960px;
-$grid-gutter-width: 20px;
-
-// colors
-
-$green: #39ca74;
-$darkgrey: #3b3c3a;
-$orange: #f39c12;
-
-// font-family
-
-$museosans: museosans, Arial, sans-serif;
-$museoslab: museoslab, Georgia, serif;
+$grid-columns: 16;  // number of columns
+$grid-width: 960px; // width grid
+$grid-gutter-width: 20px; // width inter columns
