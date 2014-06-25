@@ -1,17 +1,17 @@
 // basic
 
-$font-size-base: 16px;
+$font-size-base: 16px; 
 $font-family-primary: gotham, Arial, sans-serif;
-
-// media queries
-
-$xs-screen: 480px; // Extra small screen / phone
-$s-screen: 768px; // Small screen / tablet
-$m-screen: 992px; // Medium screen / desktop
-$l-screen: 1200px; // Large screen / wide desktop
 
 // grid
 
 $grid-columns: 16;  // number of columns
 $grid-width: 960px; // width grid
 $grid-gutter-width: 20px; // width inter columns
+
+// media queries
+
+$xs-screen: 480px; // Extra small screen / phone
+$s-screen: 768px; // Small screen / tablet
+$m-screen: 992px; // Medium screen / desktop
+$l-screen: $grid-width; // Large screen / wide desktop
