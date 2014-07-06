@@ -15,3 +15,7 @@ $xs-screen: 480px; // Extra small screen / phone
 $s-screen: 768px; // Small screen / tablet
 $m-screen: 992px; // Medium screen / desktop
 $l-screen: $grid-width; // Large screen / wide desktop
+
+// transition default
+
+$transition: .2s linear;
