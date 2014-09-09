@@ -33,3 +33,13 @@ hr {
 	border: none;
 	text-align: left;
 }
+
+.row-table {
+	display: table;
+	.row-cell {
+		display: table-cell;
+		&.middle {
+			vertical-align: middle;
+		}
+	}
+}
