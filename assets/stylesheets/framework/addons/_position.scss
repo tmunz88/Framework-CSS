@@ -1,6 +1,4 @@
-// http://bourbon.io
-
-@mixin position ($position: relative, $coordinates: 0 0 0 0) {
+@mixin position ($position: relative, $coordinates: 0 0 0 0, $zIndex: auto) {
 
   @if type-of($position) == list {
     $coordinates: $position;
@@ -15,7 +13,7 @@
   $left: nth($coordinates, 4);
 
   position: $position;
-
+  
   @if ($top and $top == auto) or (type-of($top) == number and not unitless($top)) {
     top: $top;
   }
@@ -31,4 +29,9 @@
   @if ($left and $left == auto) or (type-of($left) == number and not unitless($left)) {
     left: $left;
   }
+
+  @if ($zIndex != auto) {
+    z-index: $zIndex;
+  }
+  
 }

@@ -14,6 +14,8 @@
 @import "framework/addons/ellipsis";
 @import "framework/addons/placeholder";
 
+@import "utilities/utilities";
+
 @import "modules/reset";
 @import "modules/font-face";
 @import "modules/icons";
@@ -26,5 +28,4 @@
 @import "modules/tab";
 @import "modules/application";
 
-@include make-grid;
-// @include make-grid-responsive;
+@include make-grid-responsive;

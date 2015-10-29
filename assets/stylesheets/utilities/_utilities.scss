@@ -1,0 +1,131 @@
+.u-floatLeft {
+  float: left !important;
+}
+.u-floatRight {
+  float: right !important;
+}
+.u-floatNone {
+  float: none !important;
+}
+
+
+
+/**
+ * Display
+*/
+
+.u-block {
+  display: block !important;
+}
+
+.u-hidden {
+  display: none !important;
+}
+.u-hiddenVisually {
+  position: absolute !important;
+  overflow: hidden !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+}
+
+.u-inline {
+  display: inline !important;
+}
+.u-inlineBlock {
+  display: inline-block !important;
+  max-width: 100%; 
+}
+.u-table {
+  display: table !important;
+}
+.u-tableCell {
+  display: table-cell !important;
+}
+
+.u-tableRow {
+  display: table-row !important;
+}
+
+
+/**
+ * Vertical alignment
+*/
+
+.u-alignBaseline {
+  vertical-align: baseline !important;
+}
+
+.u-alignBottom {
+  vertical-align: bottom !important;
+}
+
+.u-alignMiddle {
+  vertical-align: middle !important;
+}
+
+.u-alignTop {
+  vertical-align: top !important;
+}
+
+
+/**
+ * Text
+*/
+
+.u-breakWord {
+  word-wrap: break-word !important;
+}
+.u-alignCenter {
+  text-align: center !important;
+}
+.u-alignRight {
+  text-align: right !important;
+}
+.u-alignLeft {
+  text-align: left !important;
+}
+.u-noWrap {
+  white-space: nowrap !important;
+}
+.u-textTruncate {
+  max-width: 100%; /* 1 */
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  word-wrap: normal !important; /* 2 */
+}
+
+
+
+/**
+ * Enables font kerning in all browsers.
+ * http://blog.typekit.com/2014/02/05/kerning-on-the-web/
+ *
+ * 1. Chrome (not Windows), Firefox, Safari 6+, iOS, Android
+ * 2. Chrome (not Windows), Firefox, IE 10+
+ * 3. Safari 7 and future browsers
+ */
+
+.u-textKern {
+  text-rendering: optimizeLegibility; /* 1 */
+  font-feature-settings: "kern" 1; /* 2 */
+  font-kerning: normal; /* 3 */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
